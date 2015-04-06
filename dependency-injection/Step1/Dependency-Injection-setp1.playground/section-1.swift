@@ -14,7 +14,7 @@ class ConfigurationService {
         return keys.map({return "valueForKey" + $0})
     }
     
-    func getValue(key: String = "defaultValue")->String {
+    func getValue(key: String, defaultValue: String)->String {
         //attack configuration service and return the value
         return key
     }
